@@ -12,7 +12,8 @@ const characterSchema = new mongoose.Schema(
     description:    String,
     bounty:         String,
     wiki:           String,
-    animeQuery:     String
+    animeQuery:     String,
+    nameQuery:      String
   }
 );
 

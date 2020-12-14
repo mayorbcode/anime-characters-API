@@ -7,7 +7,8 @@ const characters = [
     desciption: 'Monkey D. Luffy, also known as "Straw Hat Luffy" and commonly as "Straw Hat", is the main protagonist of the manga and anime, One Piece.',
     bounty: '1,500,000,000',
     wiki: 'https://onepiece.fandom.com/wiki/Monkey_D._Luffy',
-    animeQuery: 'onepiece'
+    animeQuery: 'onepiece',
+    nameQuery: 'luffy'
   },
   {
     id:    2,
@@ -17,7 +18,8 @@ const characters = [
     desciption: 'Roronoa Zoro, also known as "Pirate Hunter" Zoro, is the combatant of the Straw Hat Pirates, and one of their two swordsmen.',
     bounty: '320,000,000',
     wiki: 'https://onepiece.fandom.com/wiki/Roronoa_Zoro',
-    animeQuery: 'onepiece'
+    animeQuery: 'onepiece',
+    nameQuery: 'zoro'
   },
   {
     id:    3,
@@ -27,7 +29,8 @@ const characters = [
     desciption: '"Black Leg" Sanji, born as Vinsmoke Sanji, is the cook of the Straw Hat Pirates. He is the fifth member of the crew and fourth to join, doing so after the Baratie Arc.',
     bounty: '330,000,000',
     wiki: 'https://onepiece.fandom.com/wiki/Sanji',
-    animeQuery: 'onepiece'
+    animeQuery: 'onepiece',
+    nameQuery: 'sanji'
   },
   {
     id:    4,
@@ -37,7 +40,8 @@ const characters = [
     desciption: '"Cat Burglar" Nami is the naivigator of the Straw Hat Pirates. She is the third member of the crew and the second to join, doing so during the Orange Town Arc.',
     bounty: '66,000,000',
     wiki: 'https://onepiece.fandom.com/wiki/Nami',
-    animeQuery: 'onepiece'
+    animeQuery: 'onepiece',
+    nameQuery: 'nami'
   },
   {
     id:    5,
@@ -47,7 +51,8 @@ const characters = [
     desciption: '"God" Usopp is the sniper of the Straw Hat Pirates. He is the fourth member of the crew and the third to join, doing so at the end of the Syrup Village Arc.',
     bounty: '200,000,000',
     wiki: 'https://onepiece.fandom.com/wiki/Usopp',
-    animeQuery: 'onepiece'
+    animeQuery: 'onepiece',
+    nameQuery: 'usopp'
   },
   {
     id:    6,
@@ -57,7 +62,8 @@ const characters = [
     desciption: 'Tony Tony Chopper, also known as "Cotton Candy Lover" Chopper, is the doctor of the Straw Hat Pirates. He is the sixth member of the crew and the fifth to join, doing so at the end of the Drum Island Arc.',
     bounty: '100',
     wiki: 'https://onepiece.fandom.com/wiki/Tony_Tony_Chopper',
-    animeQuery: 'onepiece'
+    animeQuery: 'onepiece',
+    nameQuery: 'chopper'
   },
   {
     id:    7,
@@ -67,7 +73,8 @@ const characters = [
     desciption: '"Iron Man" Franky is the shipwright of the Starw Hat Pirates. He is the eighth member of the crew and the seventh to join, doing so after the Post-Enies Lobby Arc.',
     bounty: '94,000,000',
     wiki: 'https://onepiece.fandom.com/wiki/Franky',
-    animeQuery: 'onepiece'
+    animeQuery: 'onepiece',
+    nameQuery: 'franky'
   },
   {
     id:    8,
@@ -77,7 +84,8 @@ const characters = [
     desciption: 'Nico Robin, also known by her epithet "Devil Child" and the "Light of the Revolution", is the archaeologist of the Straw Hat Pirates. She is the seventh member of the Straw Hat Pirates and the sixth to join, doing so at the end of the Alabasta Arc.',
     bounty: '130,000,000',
     wiki: 'https://onepiece.fandom.com/wiki/Nico_Robin',
-    animeQuery: 'onepiece'
+    animeQuery: 'onepiece',
+    nameQuery: 'robin'
   },
   {
     id:    9,
@@ -87,7 +95,8 @@ const characters = [
     desciption: '"Soul King" Brook is the musician of the Straw Hat Pirates, and one of their two swordsmen. He is the ninth member of the crew and the eighth to join, doing so at the end of the Thriller Bark Arc.',
     bounty: '83,000,000',
     wiki: 'https://onepiece.fandom.com/wiki/Brook',
-    animeQuery: 'onepiece'
+    animeQuery: 'onepiece',
+    nameQuery: 'brook'
   },
   {
     id:    10,
@@ -97,7 +106,8 @@ const characters = [
     desciption: '"Knight of the Sea" Jinbe is the helmsman of the Straw Hat Pirates. He is the tenth member of the crew and the ninth to join, doing so during the Wano Country Arc.',
     bounty: '438,000,000',
     wiki: 'https://onepiece.fandom.com/wiki/Jinbe',
-    animeQuery: 'onepiece'
+    animeQuery: 'onepiece',
+    nameQuery: 'jinbe'
   },
 ]
 

@@ -50,8 +50,7 @@ app.get('/api/v0/:anime', (req, res) => {
 // JSON endpoint. Returns object with the specified query parameters
 app.get('/api/v0/:anime/:name', (req, res) => {
   let animeName = req.params.anime;
-  // Get name param and convert the first letter to uppercase in order to match the name value in the DB
-  let characterName = req.params.name.charAt(0).toUpperCase() + req.params.name.slice(1);
+  let characterName = req.params.name;
   Characters.findOne({animeQuery: animeName, name: characterName}, (err, data) => {
     if (err || data===null) {
       res.send('Could not find character');
