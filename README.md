@@ -8,12 +8,13 @@ By [mayorbcode](https://github.com/mayorbcode)
 {  
     id:             1,
     anime:          'One Piece',
-    name:           'Luffy',
+    name:           'Monkey D. Luffy',
     role:           'Captain',
     description:    '...',
     bounty:         '1,500,000,000',
     wiki:           'https://onepiece.fandom.com/wiki/Monkey_D._Luffy',
-    animeQuery:     'onepiece'
+    animeQuery:     'onepiece',
+    nameQuery:      'luffy'  
 }  
 </pre>
 
