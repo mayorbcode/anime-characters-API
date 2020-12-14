@@ -51,7 +51,7 @@ app.get('/api/v0/:anime', (req, res) => {
 app.get('/api/v0/:anime/:name', (req, res) => {
   let animeName = req.params.anime;
   let characterName = req.params.name;
-  Characters.findOne({animeQuery: animeName, name: characterName}, (err, data) => {
+  Characters.findOne({animeQuery: animeName, nameQuery: characterName}, (err, data) => {
     if (err || data===null) {
       res.send('Could not find character');
       // console.log(err);
