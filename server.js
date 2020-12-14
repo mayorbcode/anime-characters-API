@@ -1,7 +1,6 @@
 // Load dependencies
-const path = require('path');
 const express = require('express');
-var cors = require('cors');
+const cors = require('cors');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv').config();
 
@@ -13,9 +12,6 @@ const app = express();
 
 // Enable all cors requests
 app.use(cors()); 
-
-// Set view engine
-app.set('view engine', 'ejs');
 
 // Set up mongoose connection
 mongoose.connect(process.env.MONGODB_URL, { useUnifiedTopology: true,useNewUrlParser: true });
