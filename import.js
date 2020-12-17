@@ -4,8 +4,6 @@ const dotenv = require('dotenv').config();
 
 // Import seed data
 const dbSeed = require(`./seeds/characters.js`);
-// console.log(dbSeed[1]);
-
 
 // Define model
 const Character = require(`./models/character.js`);
@@ -32,11 +30,3 @@ Character.insertMany(dbSeed, function(error, character) {
   console.log('Data import completed.')
   mongoose.connection.close();
 });
-
-// Insert One
-// Variabe to store last document/object added to seeds
-// let insert = dbSeed[dbSeed.length-1];
-// Character.create(insert, function(error, character) {
-//   console.log('Data import completed.')
-//   mongoose.connection.close();
-// });

@@ -1,7 +1,15 @@
 # Anime Characters API
 By [mayorbcode](https://github.com/mayorbcode)  
 
+## Objective
+Create an anime API that contains JSON endpoints for multiple and individual character information and also an end point for a character's image.  
+
 ## API Endpoints
+- JSON
+  - [Sample Characters](https://anime-characters-api.herokuapp.com/api/v0/onepiece)
+  -  [Sample Individual Character](https://anime-characters-api.herokuapp.com/api/v0/onepiece/luffy)  
+- Images
+  - [Sample Image](https://anime-characters-api.herokuapp.com/images/robin)  
 
 ## Sample schema
 <pre>
